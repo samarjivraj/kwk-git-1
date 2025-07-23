@@ -1,0 +1,114 @@
+body {
+  background-color: #283618;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #fefae0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.profilepic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.nav_bar {
+  background-color: #fefae0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  padding: 10px 20px;
+}
+
+.nav_bar a {
+  color: #283618;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav_bar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+main {
+  margin-top: 100px;
+}
+
+.bio {
+  text-align: center;
+  border-color: #fefae0;
+  border-style: solid;
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+}
+
+.img_desc {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+ul {
+  text-align: left;
+  border-color: #bc6c25;
+  border-style: solid;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.facts {
+  text-align: center;
+  color: #fefae0;
+}
+
+.quiz {
+  color: #fefae0;
+}
+
+article {
+  border-color: #bc6c25;
+  border-style: solid;
+}
+
+
+
+a {
+  color: #283618;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: auto;
+}
